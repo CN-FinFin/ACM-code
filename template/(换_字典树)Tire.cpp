@@ -1,3 +1,7 @@
+/* 
+ *  HDU - 5536 Chip Factory
+ *  (s_i+s_j)^s_k最大值
+ */
 #include<bits/stdc++.h>
 
 #define inf 0x3f3f3f3f
@@ -106,7 +110,7 @@ int main()
         }
         cout<<ans<<endl;
         rep(i,1,tot)
-        node[i].ch[0]=0,node[i].ch[1]=0,node[i].size=0;
+            node[i].ch[0]=0,node[i].ch[1]=0,node[i].size=0;
         tot=1;
     }
     return 0;

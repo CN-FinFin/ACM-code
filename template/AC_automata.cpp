@@ -80,16 +80,16 @@ int main(){
     int T;
     int n;
     scanf("%d",&T);
-    while( T-- ){
-    scanf("%d",&n);
-    ac.init();
-    for(int i = 0;i < n;i++){
+        while( T-- ){
+        scanf("%d",&n);
+        ac.init();
+        for(int i = 0;i < n;i++){
+            scanf("%s",buf);
+            ac.insert(buf);
+        }
+        ac.build();
         scanf("%s",buf);
-        ac.insert(buf);
-    }
-    ac.build();
-    scanf("%s",buf);
-    printf("%d\n",ac.query(buf));
+        printf("%d\n",ac.query(buf));
     }
     return 0;
 }

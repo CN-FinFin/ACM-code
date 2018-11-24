@@ -1,3 +1,7 @@
+/*
+ *  HDU - 4347  The Closest M Points
+ *  输出指定点最近M个点.
+ */
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 50010;
